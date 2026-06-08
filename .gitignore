@@ -1,0 +1,21 @@
+# Jupyter checkpoints
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Archivos de backup
+*.backup_*
+
+# Carpeta interna de Claude Code
+docs/superpowers/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Variables de entorno
+.env
+
+# OS
+.DS_Store
+Thumbs.db

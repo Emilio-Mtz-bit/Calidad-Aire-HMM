@@ -1,0 +1,22 @@
+Variable,Tipo,Descripción
+datetime,Temporal,Marca de tiempo original
+periodo,Categórica,"Periodo de medición: 0=P1, 1=P2"
+near_gap,Flag,"Proximidad a brecha 19-20 Nov (±2h): 1=sí, 0=no"
+CO2_ppm_log,Contaminante,log(1+CO₂ winsorizado) — estandarizada
+TVOC_ppb_log,Contaminante,log(1+TVOC winsorizado) — estandarizada
+CO_ppm_log,Contaminante,log(1+CO winsorizado) — estandarizada
+SO2_ppm_log,Contaminante,log(1+SO₂ winsorizado) — estandarizada
+O3_ppm_log,Contaminante,log(1+O₃ winsorizado) — estandarizada
+NO2_ppm_log,Contaminante,log(1+NO₂ winsorizado) — estandarizada
+PM2_5_ugm3_log,Contaminante,log(1+PM2.5 winsorizado) — estandarizada
+PM10_ugm3_log,Contaminante,log(1+PM10 winsorizado) — estandarizada
+temp_C,Meteorológica,Temperatura °C — estandarizada
+hum_pct,Meteorológica,Humedad relativa % — estandarizada
+hour_sin,Temporal,sin(2π·hora/24) — codificación cíclica
+hour_cos,Temporal,cos(2π·hora/24) — codificación cíclica
+dow_sin,Temporal,sin(2π·día/7) — codificación cíclica
+dow_cos,Temporal,cos(2π·día/7) — codificación cíclica
+is_weekend,Temporal,"1=sábado o domingo, 0=día laborable"
+AQI,Target,Índice de calidad del aire continuo (1.0–5.0)
+AQI_clase,Target,AQI como entero (1–5) para clasificación multiclase
+AQI_binario,Target,"0=bueno (AQI<=2), 1=malo (AQI>=3)"
